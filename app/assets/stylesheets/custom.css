@@ -1,0 +1,38 @@
+/* 
++++++++++++++++++++++++++++++
+Universal CSS
++++++++++++++++++++++++++++++
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
++++++++++++++++++++++++++++++
+Main container CSS
++++++++++++++++++++++++++++++
+*/
+.main {
+    min-height: calc(100vh - 100px);
+}
+
+
+
+/* 
++++++++++++++++++++++++++++++
+Footer CSS
++++++++++++++++++++++++++++++
+*/
+.footer {
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+}
+
+.footer p {
+    margin: 0;
+}
